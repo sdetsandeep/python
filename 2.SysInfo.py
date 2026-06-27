@@ -12,6 +12,5 @@ marks = 85
 
 if marks >= 33:
     print("Pass")
-
-print("Exam Finished")
+    print("Exam Finished")
 
