@@ -44,4 +44,5 @@ z = str(number)
 print("Using str()")
 print("Value :", z)
 print("Data Type :", type(z))
+
 print()
