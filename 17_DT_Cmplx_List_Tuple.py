@@ -19,3 +19,11 @@ print("Tuple :", colors)
 print("Data Type :", type(colors))
 print()
 
+# line of code to explain the List can be changed
+fruits[1] = "Orange"
+print("After changing  the item at 1st index new List is ")
+print( "The list of fruit is ", fruits)
+
+colors(1)="blue";
+print("After changing  the item at 1st index new color is ")
+print( "The list of fruit is ", colors)
