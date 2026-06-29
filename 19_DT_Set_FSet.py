@@ -9,6 +9,11 @@ print("Set :", languages)
 print("Data Type :", type(languages))
 print()
 
+# add some element to set  languages
+
+languages.add("C Sharp");
+
+print("Now the Set is  :", languages)
 
 # -------------------------------
 # Frozen Set (Cannot be Changed)
