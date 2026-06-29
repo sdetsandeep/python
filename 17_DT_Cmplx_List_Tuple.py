@@ -24,6 +24,6 @@ fruits[1] = "Orange"
 print("After changing  the item at 1st index new List is ")
 print( "The list of fruit is ", fruits)
 
-colors(1)="blue";
+colors(1)="blue";  # Error   colors(1)="blue"; SyntaxError: cannot assign to function call here
 print("After changing  the item at 1st index new color is ")
 print( "The list of fruit is ", colors)
