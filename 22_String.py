@@ -18,6 +18,7 @@ ut labore et dolore magna aliqua."""
 print(a)
 
 #Multiline Strings  (by using three single quotes  ''')
+print("\n\n===========================================================\n\n")
 a1 = '''Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
