@@ -1,8 +1,7 @@
 import chromadb
 
+print("Step 1 : Library Loaded")
+
 client = chromadb.PersistentClient(path="mydb")
 
-collection = client.create_collection("books")
-
-print("Collection Created Successfully")
-print(collection.get())
+print("Step 2 : Connected to Database")
