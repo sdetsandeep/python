@@ -1,10 +1,11 @@
 import chromadb
 
-print("Step 1 : Library Loaded")
+
+#print("Step 1 : Library Loaded")
 
 client = chromadb.PersistentClient(path="mydb")
 
-print("Step 2 : Connected to Database")
+#print("Step 2 : Connected to Database")
 
 collection = client.get_or_create_collection(name="books")
 #collection = client.get_or_create_collection(name="books1")
@@ -13,6 +14,7 @@ print("Step 3 : Collection Ready")
 # to see the collections in db 
 print(client.list_collections())
 
+"""
 collection.add(
 ids =["1"],
 documents= ["Python is Very easy programming Lanugage .."],
@@ -36,7 +38,8 @@ collection.add(
     ]
 )
 print("Step 4 : Document Added")
-#result =collection.get(ids=["3"]);
+
+"""
 
 result =collection.query(
     query_texts=["Best programming language for beginners"],
