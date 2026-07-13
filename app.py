@@ -41,10 +41,28 @@ print("Step 4 : Document Added")
 
 """
 
-result =collection.query(
-    query_texts=["Best programming language for beginners"],
-    n_results=2
+print("Result 1 is ===============================================\n")
+
+result1 = collection.query(
+    query_texts=["Python language"],
+    n_results=3
 )
 
-print(result)
+print(result1)
 
+print("Result 2 is ===============================================\n")
+result2 = collection.query(
+    query_texts=["Java programming"],
+    n_results=3
+)
+
+print(result2)
+
+print("Result  3is ===============================================\n")
+
+result3  =collection.query(
+    query_texts=["Artificial Intelligence"],
+    n_results=3
+)
+
+print(result3)
